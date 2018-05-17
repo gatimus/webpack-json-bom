@@ -1,0 +1,11 @@
+{
+  "name": "webpack-json-bom",
+  "version": "1.0.0",
+  "scripts": {
+    "prestart": "node make-windows-json.js",
+    "start": "webpack"
+  },
+  "dependencies": {
+    "webpack": "^3.12.0"
+  }
+}
